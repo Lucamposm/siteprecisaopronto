@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -42,32 +43,38 @@ a {
 /* Navbar */
 #navbar {
     width: 100%;
-    background: #111;
+    background: rgb(51, 3, 128);
     color: #eee;
-    height: 80px;
+    height: 15%;
     position: fixed;
+    padding: 20px 0;
 }
 
 #navbar-container {
-    width: 80%;
+    width: 95%;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+#navbar-redes-sociais {
+    text-align: right;
+    
+}
 
 .logo {
     font-size: 2rem;
 }
-#navbar-items {
+#navbar-itens {
     display: flex;
     list-style: none;
     text-transform: uppercase;
 
 }
 
-#navbar-items li {
+#navbar-itens li {
+    display: inline-block;
     padding: 15px;
 }
 
@@ -78,7 +85,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url('/img2/caminhao\ 2.jpg') no-repeat center center/cover;
+    background-image: url('../img2/caminhao\ 2.jpg');
 
     /* Overlay */
     background-color: rgba(0, 0, 0, 0.4);
@@ -86,6 +93,9 @@ a {
 }
 
 #showcase-container {
+    width: 100%;
+    float: right;
+    position: relative;
     text-align: center;
 }
 
@@ -100,32 +110,35 @@ a {
 
 /* clients */
 #clients {
-    width: 100%;
+    width: 80%;
     background: white;
     color: red;
     padding: 50px;
+    text-align: center;
+    margin-left: 10%;   
 }
 
 #clients-container {
     display: inline-block;
     grid-template-columns: repeat(6, 1fr);
     justify-items: center;
-    padding: 3px;
+    padding: 2px;
 }
 
 .client {
     display: inline-block;
     width: 25%;
 }
+
 /* About */
 #features {
     width: 100%;
-    background: #222;
+    background: rgb(218, 5, 5);
     color: #eee;
     padding: 50px;
 }
 #features-container {
-    background-image: ;
+    
     width: 100%;
     margin: auto;
     display: grid;
@@ -137,9 +150,10 @@ a {
 .feature {
     display: table-cell;
     flex-direction: column;
-    background: #333;
+    background: rgb(58, 2, 121);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
+
 }
 .feature-title {
     font-size: 1.5rem;
@@ -170,14 +184,14 @@ a {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    background: #333;
+    background: rgb(77, 3, 138);
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
 }
 #testimonials {
     width: 100%;
-    background: #222;
+    background: rgb(212, 7, 7);
     color: #eee;
     padding: 50px;
 }
@@ -194,10 +208,25 @@ a {
     border-radius: 50%;
     margin: 15px;
 }
+/* Blog */
+#blog{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+#blog-container video {
+    width: 50%;
+    margin-left: 25%;
+}
+#blog h {
+    text-align: center;
+}
+    
+
 
 /* gallery */
 #gallery {
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 50px;
 }
@@ -211,7 +240,7 @@ a {
     display: inline-block;
     width: 440px;
     height: 260px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 /* footer */
