@@ -237,7 +237,8 @@ a {
 }
 .galerry-image {
     display: inline-block;
-    width: 440px;
+    width: 100%;
+    max-width: 466px;
     height: 260px;
     border-radius: 10px;
 }
