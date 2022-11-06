@@ -86,6 +86,9 @@ a {
     align-items: center;
     color: #eee;
     background-image: url('../img2/caminhao\ 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     /* Overlay */
     background-color: rgba(0, 0, 0, 0.4);
@@ -136,23 +139,19 @@ a {
     background: rgb(218, 5, 5);
     color: #eee;
     padding: 50px;
-}
-#features-container {
     
-    width: 100%;
+}
+#feature-container {
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 30px;
-
+    display: flex;
     
 }
 .feature {
-    display: table-cell;
-    flex-direction: column;
+    width: 25%;
     background: rgb(58, 2, 121);
     padding: 20px;
     border-radius: 20px;
+    margin: 0 10px;
 
 }
 .feature-title {
