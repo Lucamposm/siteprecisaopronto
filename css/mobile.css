@@ -1,26 +1,32 @@
 #navbar {
     height: 180px;
+    
+    
 }
 
 #navbar-container {
     flex-direction: column;
     padding: 20px 0;
+     
+
 }
 
-#navbar-items {
+#navbar-itens {
     flex-direction: column;
     text-align: center;
     width: 100%;
+    
+    
 }
 
-#navbar-items li:nth-child(2) {
+#navbar-itens li:nth-child(2) {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
 
 /* Showcase */
 #showcase-container {
-    padding: 40px;
+    padding: 30px;
 }
 
 /* Clients */
@@ -33,11 +39,16 @@
 }
 
 /* Features */
-#features-container {
+#feature-container {
     grid-template-columns: 1fr;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    text-align: center;
 }
 
-#features-container .feature:nth-child(2) {
+#feature-container .feature:nth-child(2) {
     margin: 15px 0;
 }
 
