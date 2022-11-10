@@ -1,3 +1,4 @@
+$(function(){
 // Smooth Scrolling
 $("#navbar a, .btn").on("click", function (event) {
     if (this.hash !== "") {
@@ -22,5 +23,14 @@ window.addEventListener("scroll", function () {
         document.querySelector("#navbar").style.opacity = 1;
     }
 });
+
+//menu
+$(".menu-mobile").click(function(){
+    $(".menu-mobile ul").slideToggle();
+})
+
+})
+
+
 
 
