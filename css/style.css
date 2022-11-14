@@ -120,6 +120,7 @@ redes {
     margin-left: 10%; 
 }
 
+
 #clients-container {
     display: inline-block;
     width: 50%;
@@ -324,11 +325,17 @@ redes {
         height: 90px;
     }
     #Rodape{
-        font-size: 10px;
+        font-size: 9px;
+        display: block;
+       
     }
+
     #video-container video{
         width: 70%;
         margin-left: 15%;
+    }
+    .rodape-texto{        
+        padding: 10px;
     }
     
     /*footer */
