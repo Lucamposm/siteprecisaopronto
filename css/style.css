@@ -297,8 +297,8 @@ redes {
         background-image: url(../img2/menu.png);
         background-position: center;
         background-size: 100% 100%;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
     }
     .menu-mobile ul{
@@ -319,6 +319,10 @@ redes {
     }
     .logo img{
         width: 120px;
+    }
+    #showcase-container h2{
+        text-align: center;
+        
     }
     #showcase-container p{
         text-align: justify;
