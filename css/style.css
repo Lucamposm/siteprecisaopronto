@@ -320,6 +320,9 @@ redes {
     .logo img{
         width: 120px;
     }
+    #showcase-container p{
+        text-align: justify;
+    }
     .testimonial .testimonial-image{
         width: 180px;
         height: 90px;
