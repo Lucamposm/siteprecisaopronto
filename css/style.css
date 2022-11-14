@@ -318,7 +318,7 @@ redes {
         border-bottom: 1px solid black;
     }
     .logo img{
-        width: 120px;
+        width: 130px;
     }
     #showcase-container h2{
         text-align: center;
@@ -338,8 +338,8 @@ redes {
     }
 
     #video-container video{
-        width: 70%;
-        margin-left: 15%;
+        width: 60%;
+        margin-left: 20%;
     }
     .rodape-texto{        
         padding: 10px;
